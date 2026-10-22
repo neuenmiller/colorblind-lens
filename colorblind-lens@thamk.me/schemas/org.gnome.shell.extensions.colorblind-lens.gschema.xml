@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.colorblind-lens"
+          path="/org/gnome/shell/extensions/colorblind-lens/">
+    <key name="toggle-lens" type="as">
+      <default><![CDATA[['<Super><Shift>c']]]></default>
+      <summary>Draw a lens, or close the open one</summary>
+    </key>
+    <key name="mode" type="s">
+      <choices>
+        <choice value="strong"/>
+        <choice value="deutan"/>
+        <choice value="protan"/>
+        <choice value="deutan-sim"/>
+        <choice value="protan-sim"/>
+      </choices>
+      <default>'strong'</default>
+      <summary>What the lens does to colors</summary>
+    </key>
+    <key name="strength" type="d">
+      <range min="0" max="2"/>
+      <default>1.0</default>
+      <summary>Correction strength (1 is the standard amount)</summary>
+    </key>
+    <key name="last-area" type="ai">
+      <default>[]</default>
+      <summary>Position and size of the last lens as x, y, width, height</summary>
+    </key>
+  </schema>
+</schemalist>

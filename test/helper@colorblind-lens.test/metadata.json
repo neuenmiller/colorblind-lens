@@ -1,0 +1,12 @@
+{
+  "uuid": "helper@colorblind-lens.test",
+  "name": "Colorblind Lens test helper",
+  "description": "Puts the throwaway test shell in unsafe mode so the test driver can use Eval and Screenshot. Never install this in a real session.",
+  "shell-version": [
+    "50"
+  ],
+  "session-modes": [
+    "user",
+    "unlock-dialog"
+  ]
+}

@@ -1,0 +1,60 @@
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+/* SPDX-FileCopyrightText: 2026 Kansapat Udomchokpaiboon */
+
+.colorblind-lens-selector {
+  background-color: rgba(0, 0, 0, 0.45);
+}
+
+.colorblind-lens-hint {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 999px;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.colorblind-lens-outline {
+  border: 2px solid -st-accent-color;
+}
+
+.colorblind-lens-toolbar {
+  color: #fff;
+  background-color: rgba(30, 30, 30, 0.92);
+  border-radius: 999px;
+  padding: 3px 4px 3px 10px;
+  spacing: 6px;
+  font-size: 0.9em;
+}
+
+.colorblind-lens-grip {
+  icon-size: 16px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.colorblind-lens-button {
+  color: #fff;
+  border-radius: 999px;
+  padding: 3px 10px;
+  font-weight: bold;
+}
+
+.colorblind-lens-button:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.colorblind-lens-button:active {
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+.colorblind-lens-strength {
+  color: rgba(255, 255, 255, 0.75);
+  font-feature-settings: "tnum";
+}
+
+.colorblind-lens-close {
+  padding: 4px;
+}
+
+.colorblind-lens-close StIcon {
+  icon-size: 16px;
+}

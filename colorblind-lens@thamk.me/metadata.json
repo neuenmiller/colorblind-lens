@@ -1,0 +1,12 @@
+{
+  "uuid": "colorblind-lens@thamk.me",
+  "name": "Colorblind Lens",
+  "description": "Draw a lens anywhere on the screen, like the screenshot tool's area selection. Everything seen through it is recolored live so that red-green colorblind eyes can tell reds from greens, while the rest of the screen stays as it is. Clicks pass through the lens.\n\nSuper+Shift+C draws a lens and closes it again; the Quick Settings tile does the same and holds the modes and a strength slider. The default Strong fix works for protan and deutan eyes alike, so you do not need to know your type.",
+  "shell-version": [
+    "50",
+    "51"
+  ],
+  "url": "https://github.com/neuenmiller/colorblind-lens",
+  "settings-schema": "org.gnome.shell.extensions.colorblind-lens",
+  "version-name": "1.0"
+}
